@@ -9,8 +9,9 @@ int main(){
         scanf("%d",&a[i]);
     }
     for(i=0;i<n;i++){
-        
+  
             s=s+a[i];
+        
     }
     printf("%d",s);
 }
