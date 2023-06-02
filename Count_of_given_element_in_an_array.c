@@ -7,11 +7,11 @@ int main(){
     for(i=0;i<n;i++){
         scanf("%d",&a[i]);
     }
-    int se;
-    scanf("%d",&se);
     int c=0;
+    int odd;
+    scanf("%d",&odd);
     for(i=0;i<n;i++){
-        if(a[i]==se){
+        if(a[i]==odd){
             c=c+1;
         }
     }
